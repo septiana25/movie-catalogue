@@ -9,5 +9,4 @@ const router = {
   '/detail/:id': Detail,
 };
 
-
 export default router;
