@@ -40,6 +40,10 @@ body {
     cursor: pointer;
 }
 
+.app-bar .app-bar__brand {
+    display: flex;
+    align-items: center;
+}
 .app-bar .app-bar__brand h1 {
     color: #db0000;
     text-transform: uppercase;
@@ -72,3 +76,23 @@ body {
 }
 
 /* Main Content */
+
+main {
+    padding: 32px;
+    flex: 1;
+}
+
+/* footer */
+
+footer {
+    padding: 16px;
+}
+
+footer p {
+    text-align: center;
+    color: #aaaaaa;
+}
+footer p a {
+    color: #db0000;
+    text-decoration: none;
+}
