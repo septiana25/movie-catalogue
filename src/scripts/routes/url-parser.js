@@ -21,7 +21,7 @@ const UrlParser = {
 
   _urlCombiner(splitedUrl) {
     return (splitedUrl.resoruce ? `/${splitedUrl.resoruce}` : '/')
-        + (splitedUrl.id ? ':/id' : '')
+        + (splitedUrl.id ? '/:id' : '')
         + (splitedUrl.verb ? `/${splitedUrl.verb}` : '');
   },
 };

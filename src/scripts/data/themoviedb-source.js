@@ -13,8 +13,8 @@ class MovieDBSource {
     return responseJson.results;
   }
 
-  static async movieDetail(id) {
-    const response = await fetch(API_ENDPOINT.movieDetail(id));
+  static async movieDetail(movie) {
+    const response = await fetch(API_ENDPOINT.movieDetail(movie.id));
     const responseJson = await response.json();
     return responseJson;
   }
