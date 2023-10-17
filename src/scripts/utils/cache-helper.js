@@ -15,7 +15,7 @@ const CacheHelper = {
 
   async revalidateCache(request) {
     const response = await caches.match(request);
- 
+
     if (response) {
       this._fetchRequest(request);
       return response;
